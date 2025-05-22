@@ -1,0 +1,58 @@
+{
+  "name": "react-common-components",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Reusable React components library (Header, Footer, Sidebar)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "start": "npm run storybook",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "reusable",
+    "header",
+    "footer",
+    "sidebar",
+    "storybook",
+    "typescript"
+  ],
+  "author": "Rahul Chaurasia",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@storybook/addon-docs": "^8.6.14",
+    "@storybook/addon-essentials": "^8.6.14",
+    "@storybook/addon-interactions": "^8.6.14",
+    "@storybook/addon-onboarding": "^8.6.14",
+    "@storybook/builder-vite": "^8.6.14",
+    "@storybook/react": "^8.6.14",
+    "@storybook/react-vite": "^8.6.14",
+    "@storybook/test": "^8.6.14",
+    "@types/react": "^18.2.58",
+    "@types/react-dom": "^18.2.19",
+    "postcss": "^8.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.12.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "storybook": "^8.6.14",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5",
+    "vite": "^6.3.5"
+  }
+}
