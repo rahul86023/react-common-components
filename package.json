@@ -1,6 +1,6 @@
 {
   "name": "react-common-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Reusable React components library (Header, Footer, Sidebar)",
   "main": "dist/index.js",
